@@ -1,0 +1,3 @@
+# Elixir Enum.reduce Silent Error
+
+This example demonstrates a common error in Elixir's `Enum.reduce` where a missing `return` statement within the anonymous function leads to unexpected behavior. The code intends to sum only the even numbers in a list; however, due to the omitted return, it produces an incorrect result. The solution shows how to explicitly return the accumulator value in each iteration.
